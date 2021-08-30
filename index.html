@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <h1>Passinho do romano</h1>
+
+    <form action="">
+
+        <div>
+        <input type="text" id="meu-input" placeholder="Insira o texto a codificar">
+        </div>
+
+        <div>
+        <select name="codificador" id="codificador"> 
+            <option value="" disabled selected >Escolha uma opção</option>
+            <option value="cesar">Cifra de César</option>
+            <option value="base">Base64</option>
+        </select>
+        </div>
+
+        
+
+        <input type="text" id="incremento" placeholder="Insira o incremento">
+        <!--<button id="valor">Codificar</button>-->
+
+        <!--<button onclick="cifraCesar()" id="codificar">Codificar</button>-->
+        <div id='opcoes1'>
+        <div id="input-field" onclick="codificarCesar()">
+            <input type="radio" id="codi" name="selecao">
+            <label for="codi">Codificar</label>
+        </div>
+
+        <div id="input-field" onclick="decodificarCesar()">
+            <input type="radio" id="decodi" name="selecao">
+            <label for="decodi">Decodificar</label>
+        </div>
+        </div>
+
+        <div id='opcoes2'>
+            <div id="input-field" onclick="codificarBase()">
+                <input type="radio" id="codi" name="selecao">
+                <label for="codi">Codificar</label>
+            </div>
+    
+            <div id="input-field" onclick="decodificarBase()">
+                <input type="radio" id="decodi" name="selecao">
+                <label for="decodi">Decodificar</label>
+            </div>
+            </div>
+
+        <script src="./main.js"></script>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+#valor {
+    display: none;
+}
+
+#incremento {
+    display: none;
+}
+
+#codificar {
+    display: none;
+}
+
+#respostaCesar, #respostaBase {
+    border: solid 2px black ;
+    border-radius: 5px;
+}
+
+#decodificadoCesar, #decodificaBase {
+    border: solid 2px black ;
+    border-radius: 5px;
+}
+
+#opcoes1, #opcoes2 {
+    display: none;
+    justify-content: center;
+}
+
+#resposta64 {
+    border: solid 2px black ;
+    border-radius: 5px;
+}
